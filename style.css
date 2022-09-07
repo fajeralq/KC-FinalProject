@@ -1,0 +1,64 @@
+body{
+    
+    background-color: #CFD2CF ;
+    height: 100vh;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+#contactus{
+    background-color: #EFEFEF ;
+    width: 80%;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    border-top: 15px ;
+    
+}
+.contacth1{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bolder;
+}
+form{
+    margin: auto;
+    padding: 50px;
+    width: 70%;
+    
+}
+.field{
+    margin-bottom: 25px;
+    width: 100%;
+    display: grid;
+    position: relative;
+}
+label{
+    background-color: #CFD2CF;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    padding: 0;
+    position: absolute;
+    font-weight: bolder;
+    width: 700px;
+    
+}
+.input{
+    height: 50px;
+    outline: none;
+    width: 700px;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+.field:hover label{
+    width: 18%;
+    background-color:#CFD2CF ;
+    transition: all 0.5s ease-in-out;
+}
